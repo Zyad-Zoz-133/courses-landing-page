@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>courses landing page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="title">
+          <h3>programming learning center</h3>
+        </div>
+        <div class="nav-sec">
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">courses</a>
+          <a href="#">gallery</a>
+          <a href="#">contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="intro">
+        <h3>learn programming from scratch</h3>
+        <br />
+        <span
+          >start your journey with HTML, CSS, JavaScript and Backend
+          Development.</span
+        >
+        <a href="#">join now</a>
+      </section>
+
+      <section class="about-us">
+        <h3>about us</h3>
+        <span
+          >programming language center provides practical programming courses
+          for beginners</span
+        >
+        <br />
+        <ul>
+          <li>professional instructors</li>
+          <li>real projects</li>
+          <li>modern labs</li>
+          <li>certificate</li>
+          <li>career support</li>
+        </ul>
+      </section>
+      <section class="our-corses">
+        <h3>our corses</h3>
+        <div class="lang-container">
+          <div class="lang-card">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+            />
+            <span class="lang-name">HTML</span>
+            <span class="lang-disc">Learn HTML from scratch</span>
+          </div>
+          <div class="lang-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+            <span class="lang-name">CSS</span>
+            <span class="lang-disc">Design beautiful websites</span>
+          </div>
+          <div class="lang-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+            <span class="lang-name">JavaScript</span>
+            <span class="lang-disc">Make your website interactive</span>
+          </div>
+          <div class="lang-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+            <span class="lang-name">Bootstrap</span>
+            <span class="lang-disc">Make your website responsive</span>
+          </div>
+          <div class="lang-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />
+            <span class="lang-name">PHP</span>
+            <span class="lang-disc">Learn Back-end development</span>
+          </div>
+          <div class="lang-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+            <span class="lang-name">Laravel</span>
+            <span class="lang-disc">Learn Back-end development</span>
+          </div>
+
+        </div>
+      </section>
+      <section class="weekly-schedule">
+            <h3>weekly schedule</h3>
+            <table>
+                  <thead>
+                        <tr>
+                              <td>day</td>
+                              <td>course</td>
+                              <td>instructor</td>
+                              <td>time</td>
+                        </tr>
+                  </thead>
+                  <tbody>
+                        <tr>
+                              <td>sunday</td>
+                              <td>HTML</td>
+                              <td>ahmed</td>
+                              <td>10:00 AM</td>
+                        </tr>
+                        <tr>
+                              <td>monday</td>
+                              <td>CSS</td>
+                              <td>sara</td>
+                              <td>10:00 AM</td>
+                        </tr>
+                        <tr>
+                              <td>tuesday</td>
+                              <td>JS</td>
+                              <td>ali</td>
+                              <td>10:00 AM</td>
+                        </tr>
+                        <tr>
+                              <td>wednesday</td>
+                              <td>bootstrap</td>
+                              <td>mohamed</td>
+                              <td>10:00 AM</td>
+                        </tr>
+                        <tr>
+                              <td>thursday</td>
+                              <td>PHP</td>
+                              <td>omar</td>
+                              <td>10:00 AM</td>
+                        </tr>
+                  </tbody>
+            </table>
+      </section>
+      <section class="form">
+            <h3>registering form</h3>
+            <form method="post">
+  <label for="fullname">Full Name</label>
+  <br>
+  <input type="text" id="fullname" name="fullname" required>
+  <br>
+
+  <label for="email">Email</label>
+  <br>
+  <input type="email" id="email" name="email" required>
+  <br>
+
+  <label for="password">Password</label>
+  <br>
+  <input type="password" id="password" name="password" required>
+  <br>
+
+  <label for="phone">Phone</label>
+  <br>
+  <input type="tel" id="phone" name="phone" required>
+  <br>
+
+  <label for="age">Age</label>
+  <br>
+  <input type="number" id="age" name="age" required>
+  <br>
+
+  <label for="birthdate">Birth Date</label>
+  <br>
+  <input type="date" id="birthdate" name="birthdate" required>
+  <br>
+
+  <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label>
+  
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label>
+  <br>
+  <label for="course">Course</label>
+<br>
+<select id="course">
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="javascript">JavaScript</option>
+  <option value="bootstrap">Bootstrap</option>
+  <option value="php">PHP</option>
+<br>
+  <label>Skills:</label>
+<br>
+<input type="checkbox" id="html-skill" value="html">
+<label for="html-skill">HTML</label>
+
+<input type="checkbox" id="html-css" value="css">
+<label for="html-css">CSS</label>
+
+<input type="checkbox" id="html-js" value="javascript">
+<label for="html-js">JavaScript</label>
+
+<br>
+<label for="message">Write your message</label>
+<br>
+<textarea id="message" rows="4"></textarea>
+</select>
+</form>
+<br>
+<div class="btn">
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</div>
+            </form>
+      </section>
+    </div>
+    <footer>
+      <span>programming language center &copy; 2026</span>
+      <span>&copy; developed by zyad ahmed</span>
+    </footer>
+  </body>
+</html>

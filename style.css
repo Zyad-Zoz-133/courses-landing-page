@@ -1,0 +1,241 @@
+body {
+      color: white;
+      font-family: sans-serif;
+}
+
+* {
+      margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+      text-transform: capitalize;
+}
+
+nav {
+      background-color: blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      padding: 20px 0;
+}
+
+nav a {
+      margin: 0px 10px;
+      text-decoration: none;
+      color: white;
+      text-transform: capitalize;
+      font-size: 14px;
+}
+
+nav .title {
+      text-transform: capitalize;
+}
+
+.container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin: 30px;
+}
+
+.intro {
+      width: 800px;
+      height: 300px;
+      background-image: url("images/download\ \(1\).jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-transform: capitalize;
+      border-radius: 10px;
+}
+
+.intro a {
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+      padding: 5px;
+      margin-top: 20px;
+      text-decoration: none;
+}
+
+.about-us,
+.our-corses,
+.weekly-schedule,
+.form {
+      width: 765px;
+      height: fit-content;
+      background-color: white;
+      border: 1px solid gray;
+      box-shadow: 2px 4px 16px grey;
+      border-radius: 10px;
+      padding: 20px;
+      color: black;
+}
+
+.about-us {
+      width: 765px;
+      height: fit-content;
+      background-color: white;
+      border: 1px solid gray;
+      box-shadow: 2px 4px 16px grey;
+      border-radius: 10px;
+      padding: 20px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
+
+.about-us ul {
+      margin-top: -10px;
+}
+
+.about-us ul li,
+.about-us span {
+      text-transform: capitalize;
+}
+
+.lang-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 25px;
+}
+
+.our-corses .lang-container .lang-card {
+      width: 100px;
+      height: 150px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex-wrap: nowrap;
+      gap: 5px;
+      align-items: center;
+      border: 1px solid gray;
+      box-shadow: 1px 2px 16px grey;
+      border-radius: 10px;
+}
+
+.lang-card .lang-name {
+      font-weight: bold;
+}
+
+.lang-card .lang-disc {
+      font-size: 12px;
+      font-weight: 100;
+      align-self: center;
+}
+
+table {
+      width: 100%;
+      margin-top: 10px;
+      border-collapse: collapse;
+      text-align: center;
+}
+
+table thead tr {
+      background-color: blue;
+      color: white;
+}
+
+table th,
+table td {
+      padding: 12px;
+      border: 1px solid #e0e0e0;
+      text-transform: capitalize;
+}
+
+table tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(odd) {
+      background-color: #ffffff;
+}
+
+.form {
+      color: black;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+}
+
+form {
+      margin: 20px 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+      width: 50%;
+      border: 1px solid #ccc;
+      border-radius: 2px;
+      box-sizing: border-box;
+      margin-bottom: 5px;
+      display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+      width: auto;
+      margin: 10px 5px;
+      margin-left: 10px;
+}
+
+form label {
+      margin-bottom: 8px;
+}
+
+.btn {
+      display: flex;
+      margin-top: -25px;
+      margin-left: 15px;
+}
+
+input[type="reset"],
+input[type="submit"] {
+      width: 10%;
+      margin: 0px 5px;
+      margin-left: 10px;
+      display: inline;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      margin-bottom: 5px;
+      padding: 5px;
+}
+
+input[type="submit"]{
+      background-color: green;
+}
+input[type="reset"]{
+      background-color: red;
+}
+
+footer{
+      background-color: rgb(53, 53, 53);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0px;
+      text-transform: capitalize;
+}
